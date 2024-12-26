@@ -9,6 +9,7 @@ To write a program to find the LU Decomposition of a matrix.
 
 ## Algorithm
 (i) To find the L and U matrix
+
 Step1: In first step imports the required libraries: NumPy for numerical operations and 'lu' function from SciPy's linear algebra module for LU decomposition.
 
 Step2: In second step the line prompts the user to enter a matrix. The 'eval' function is used to evaluate the input as a Python expression, and 'np.array' converts it into a NumPy array.
@@ -20,6 +21,7 @@ Step4: In fourth step the line prints the lower triangular matrix 'L' obtained f
 Step5: In fifth step the line prints the upper triangular matrix 'U' obtained from the LU decomposition. Step6: End program.
 
 (ii) To find the LU Decomposition of a matrix
+
 Step1: In first step imports the required libraries: NumPy for numerical operations and lu_factor, lu_solve functions from SciPy's linear algebra module.
 
 Step2: In second step the line defines a 3x3 matrix A and a 1D array b.
